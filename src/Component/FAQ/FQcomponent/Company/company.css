@@ -1,0 +1,228 @@
+.company-h3{
+    color: red;
+}
+.company-nihao{
+    color: red;
+    line-height: 32px;
+}
+.company-p{
+    font-weight: bold;
+    line-height: 32px;
+}
+@media screen and (max-width: 320px ) and (min-width: 200px){
+    .company-h3{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 14px;
+       
+    }
+    .company-nihao{
+        color: red;
+        font-size: 14px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 13px;
+    }    
+}
+@media screen and (max-width: 380px ) and (min-width: 340px){
+    .company-h3{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 13px;
+       
+    }
+    .company-nihao{
+        color: red;
+        font-size: 13px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 13px;
+    }    
+}
+@media screen and (max-width: 430px ) and (min-width: 400px){
+    .company-h3{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 13px;
+       
+    }
+    .company-nihao{
+        color: red;
+        font-size: 13px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 13px;
+    } 
+}
+@media screen and (max-width: 510px ) and (min-width: 490px){
+    .company-h3{
+        color: red;
+        font-size: 19px;
+        margin-top: 10%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 15px;
+       
+    }
+    .company-nihao{
+        color: red;
+        font-size: 15px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 610px ) and (min-width: 550px){
+    .company-h3{
+        color: red;
+        font-size: 20px;
+        margin-top: 10%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 15px;
+       
+    }
+    .company-nihao{
+        color: red;
+        font-size: 15px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 770px ) and (min-width: 650px){
+    .company-h3{
+        color: red;
+        font-size: 19px;
+        margin-top: 10%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 14px;
+       
+    }
+    .company-nihao{
+        color: red;
+        font-size: 14px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1030px ) and (min-width: 800px){
+    .company-h3{
+        color: red;
+        font-size: 25px;
+        margin-top: 15%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 17px;
+       
+    }
+    .company-nihao{
+        color: red;
+        font-size: 17px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 17px;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 1290px ) and (min-width: 1100px){
+    .company-h3{
+        color: red;
+        font-size: 28px;
+        margin-top: 15%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .company-nihao{
+        color: red;
+        font-size: 22px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 1410px ) and (min-width: 1300px){
+    .company-h3{
+        color: red;
+        font-size: 32px;
+        margin-top: 10%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .company-fq-p{
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .company-nihao{
+        color: red;
+        font-size: 24px;
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 5%;
+        line-height: 45px;
+    }  
+}
+@media screen and (max-width: 1690px )and (min-width: 1500px){
+    .company-h3{
+        color: red;
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 15%;
+        text-align: center;
+    }
+    .company-fq-p{
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .company-nihao{
+        color: red;
+        font-size: 27px;
+    
+    }
+    .company-p{
+        font-weight: bold;
+        font-size: 28px;
+        margin-top: 5%;  
+        line-height: 45px; 
+    } 
+}

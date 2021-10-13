@@ -1,0 +1,683 @@
+
+.favorites_content {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+.favorites_cProducts {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+}
+.f_сProductsHeader {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+.f_сProductsHeader p {
+  color: white;
+  display: inline;
+  margin: 0 0 0 1%;
+}
+.f_сProductsContent {
+  padding: 2%;
+
+}
+.f_с_pContentIcons {
+  width: 100%;
+  display: flex;
+}
+.f_c_pContentIcon {
+  padding-top: 1%;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.f_с_p_cIcon1 {
+  margin-top: 4px;
+}
+
+.f_c_pContentLogo {
+  margin-left: 30%;
+  margin-bottom:5px ;
+  display: flex;
+  width: 19%;
+  max-height: 5vh;
+  cursor: pointer;
+}
+.f_c_pContentLogo button:first-child {
+  background-color: red;
+  border: none;
+  width: 50%;
+}
+.f_c_pContentLogo button:last-child {
+  background-color: white;
+  border: 2px solid red;
+  width: 50%;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+.f_c_p_favoritesProduct {
+  margin-top: 5%;
+  /* margin-bottom: 20px !important; */
+  width: 100%;
+  display: flex;
+  box-shadow: var(--shadow);
+}
+
+.f_c_p_fProductiView {
+  display: flex;
+  width: 20%;
+  text-decoration: none;
+}
+.f_с_p_cFProductIcons {
+  margin: 22% 0 0 0;
+}
+.f_c_p_fProductiView img {
+  width: 60%;
+  margin-left: 20%;
+}
+.f_c_p_fProductiViewInfo {
+  margin-left: 2%;
+  width: 60% !important;
+}
+.bas__checkout{
+  width: 100%;
+  padding-bottom: 2%;
+}
+.bas__checkoutBtn {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin-left: 80%;
+  
+}
+.productViewInfoItemsMain {
+  display: flex;
+  justify-content: space-between;
+  line-height: 20px;
+  text-decoration: none;
+  color: #555656;
+}
+.productViewInfoItemsMain span:first-child {
+  font-weight: 500;
+}
+.productViewInfoItemsMain span:last-child {
+  font-weight: 200;
+}
+.productViewInfoItems {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 5px;
+  align-items: center;
+}
+.productViewInfoItems span {
+  font-size: 0.9em;
+}
+.productViewInfoItems span:first-child {
+  font-weight: 200;
+  color: red;
+}
+
+.f_c_p_fProductiСapabilities {
+  width: 15% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+.fProductDelate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.fProductInGarbage {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.fProductDelate p {
+  color: white;
+}
+.fProductInGarbage p {
+  color: white;
+}
+
+.delateDiv {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.garbageDiv {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 13px;
+  height: 36.5px !important;
+  margin-top: 2px !important;
+}
+
+.div {
+  width: 80%;
+  visibility: hidden;
+  height: 96%;
+  margin-top: 1px;
+  padding: 0 !important;
+}
+.div p {
+  font-size: 0.9em;
+  display: inline;
+  margin: 0;
+}
+
+.svgIcons {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+/* .svgIcons:hover {
+  transition: 0.6s;
+} */
+
+/* .svgIcons:hover ~ .div {
+  background-color: red;
+  visibility: visible;
+  transition: 0.5s;
+} */
+/* .fProductDelate:hover {
+  background-color: red;
+  color: white;
+} */
+.AnswersToFAQ {
+  margin-top: 5%;
+}
+.AnswersToFAQContent {
+  display: flex;
+  padding: 0 2% 0 0;
+}
+.AnswersToFAQContent img {
+  width: 40%;
+}
+
+.AnsToFAQContentAnswers {
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.AnsToFAQContentAnswers button {
+  height: 5vh;
+  background-color: transparent;
+  border: 1px solid red;
+  font-size: 1.1em;
+  color: red;
+  font-weight: 100;
+}
+.AnsToFAQContentAnswers button:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+}
+
+.lastViewedCards {
+  padding: 2%;
+  display: flex;
+}
+.l-ViewedCard {
+  width: 15%;
+  margin-right: 2%;
+  max-height: 21vh;
+  border: 1px solid silver;
+  text-align: center;
+}
+.l-ViewedCard img {
+  width: 100%;
+}
+.l-ViewedCard span {
+  width: 100%;
+  color: #ff7200;
+}
+.f_с_p_cIcon2 {
+  width: 20px;
+  height: 20px;
+  stroke: #dddddd !important;
+}
+.f_с_p_cIcon2:hover {
+  transform: scale(1.5);
+  stroke: red !important;
+}
+.f_с_p_cIcon3:hover {
+  transform: scale(1.5);
+  stroke: red !important;
+}
+.deliveryToVendor h2 {
+  font-size: 15px;
+  color: #fff;
+  margin: 0;
+  padding: 5px;
+}
+.deliveryToVendor {
+  padding: 2px;
+  background-color: #555656;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1600px) and (min-width: 1451px) {
+  .f_с_p_cIcon1 {
+    width: 20px;
+    height: 20px;
+  }
+  .f_с_p_cFProductIcons {
+    width: 20px;
+    height: 20px;
+  }
+  .f_с_p_cIcon2 {
+    width: 30px;
+    height: 30px;
+  }
+  .f_с_p_cIcon3 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .f_c_pContentLogo {
+    width: 25%;
+    margin-left: 27%;
+  }
+  .f_c_pContentLogo button {
+    font-size: 1.2em;
+  }
+  .garbageDiv {
+    padding-top: 7px;
+  }
+  .garbageDiv p {
+    margin-left: 10px;
+  }
+
+  .AnsToFAQContentAnswers button {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 1200px) {
+  .f_c_p_favoritesProduct {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .productViewInfoItemsMain {
+    font-size: 13px;
+  }
+  .f_c_p_cIcon2 {
+    width: 25px;
+    height: 25px;
+  }
+  .f_c_p_cIcon3 {
+    width: 25px;
+    height: 25px;
+  }
+  .f_c_pContentLogo button {
+    font-size: 1em;
+  }
+  .f_с_p_cFProductIcons {
+    margin-top: 30%;
+  }
+  .f_c_pContentIcon {
+    width: 15%;
+  }
+  .f_c_pContentLogo {
+    width: 25%;
+    margin-left: 20%;
+  }
+  .garbageDiv {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .f_c_pContentLogo {
+    height: 25px;
+  }
+  .f_c_pContentLogo button:first-child {
+    font-size: 12px;
+    height: 25px;
+  }
+  .f_c_pContentLogo button:last-child {
+    font-size: 12px;
+    height: 25px;
+  }
+
+  .f_с_p_cFProductIcons {
+    margin-top: 30%;
+  }
+  .f_c_p_favoritesProduct {
+    width: 100%;
+  }
+  .productViewInfoItemsMain {
+    font-size: 0.7em !important;
+  }
+  .productViewInfoItems {
+    font-size: 0.8em !important;
+    margin-top: 6px;
+  }
+  .productViewInfoItems img {
+    width: 5px;
+  }
+
+  .f_c_p_fProductiViewInfo {
+    width: 45%;
+  }
+
+  .fProductInGarbage {
+    position: relative;
+    height: 30px;
+  }
+  .fProductDelate {
+    position: relative;
+  }
+
+  .svgIcons {
+    width: 30px;
+    height: 30px;
+  }
+  .div {
+    padding-top: 3px;
+  }
+  .div p {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 992px) {
+  .f_c_p_favoritesProduct {
+    height: 100%;
+  }
+  .f_c_pContentLogo {
+    width: 22%;
+  }
+  .productViewInfoItemsMain span {
+    font-size: 0.7em;
+  }
+  .productViewInfoItems {
+    margin-top: 7px;
+  }
+  .productViewInfoItems span {
+    font-size: 0.5em;
+  }
+  .f_с_p_cFProductIcons {
+    margin-top: 30%;
+  }
+  .svgIcons {
+    width: 30px;
+    height: 30px;
+  }
+  .delateDiv {
+    padding-top: 2.5px;
+    height: 27px;
+  }
+  .delateDiv p {
+    font-size: 0.7em;
+  }
+  .garbageDiv {
+    height: 27.5px;
+    padding-top: 2.5px;
+  }
+  .garbageDiv p {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 768px) {
+  .f_c_pContentLogo {
+    width: 25%;
+    margin-left: 24%;
+  }
+  .f_c_pContentIcon {
+    width: 15%;
+  }
+  .productViewInfoItemsMain {
+    line-height: 15px;
+  }
+  .f_c_p_fProductiView img {
+    margin-left: 10%;
+  }
+  .f_c_p_fProductiView {
+    width: 30%;
+  }
+  .f_c_p_fProductiViewInfo {
+    margin: 0;
+  }
+  .svgIcons {
+    width: 25px;
+    height: 25px;
+  }
+  .fProductInGarbage {
+    height: 25px;
+  }
+
+  .div {
+    padding-top: 1px;
+  }
+  .delateDiv {
+    height: 24px;
+  }
+  .garbageDiv {
+    height: 24px;
+  }
+  .f_с_p_cFProductIcons {
+    margin-top: 27%;
+  }
+
+  .garbageDiv p {
+    font-size: 0.5em;
+    margin-top: -0.2%;
+    text-align: center;
+    display: block;
+  }
+  .delateDiv p {
+    font-size: 0.7em;
+  }
+  .productViewInfoItemsMain span {
+    font-size: 0.6em;
+  }
+  .AnsToFAQContentAnswers button {
+    height: 26px;
+  }
+}
+
+@media (max-width: 640px) {
+  .f_c_p_favoritesProduct {
+    height: 80px;
+  }
+  .f_сProductsHeader {
+    height: 22px;
+    padding: 3px;
+  }
+  .f_c_pContentLogo {
+    width: 35%;
+    margin-left: 14%;
+  }
+  .f_c_pContentIcon {
+    width: 20%;
+  }
+  .productViewInfoItemsMain span {
+    font-size: 0.5em;
+  }
+  .productViewInfoItems {
+    margin-top: 5px;
+  }
+  .productViewInfoItems span {
+    font-size: 0.45em;
+  }
+
+  .delateDiv {
+    height: 24px;
+    margin-top: 1px;
+    padding-top: 0;
+  }
+  .delateDiv p {
+    font-size: 0.6em;
+  }
+  .garbageDiv {
+    height: 23px;
+    margin-top: 1px;
+  }
+  .garbageDiv p {
+  }
+  .svgIcons {
+    width: 25px;
+    height: 26px;
+  }
+  .l-ViewedCard span {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 411px) {
+  .favorites_content {
+    width: 100%;
+    margin: 0;
+  }
+  .favorites_cProducts {
+  }
+  .f_сProductsHeader {
+    padding: 0;
+  }
+  .f_c_pContentLogo {
+    width: 40%;
+    margin-left: 10%;
+    height: 20px !important;
+  }
+  .f_c_pContentLogo button {
+    height: 20px !important;
+  }
+  .f_c_p_favoritesProduct {
+    height: 60px;
+  }
+  .makeStyles-AppBar {
+    width: 220px;
+  }
+  .delateDiv {
+    height: 19px;
+    margin-top: 2px;
+    padding-top: 0;
+  }
+  .delateDiv p {
+    font-size: 0.5em;
+    align-items: center;
+    margin-top: 4px;
+    display: block;
+  }
+  .garbageDiv {
+    height: 19px;
+    margin-top: 2px;
+    padding-top: 0;
+  }
+  .garbageDiv p {
+    font-size: 0.45em;
+    margin-top: 1px;
+  }
+
+  .svgIcons {
+    width: 20px;
+    height: 23px;
+  }
+  .f_сProductsHeader p {
+    font-size: 10px;
+  }
+
+  .l-ViewedCard {
+    height: 70px;
+  }
+  .AnsToFAQContentAnswers button {
+    height: 20px;
+    font-size: 0.9em;
+  }
+  .productViewInfoItems {
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 375px) {
+  .f_c_pContentLogo {
+    height: 20px;
+  }
+  .f_c_pContentLogo button {
+    height: 20px !important;
+  }
+  .f_с_p_cFProductIcons {
+    width: 10px;
+    margin-top: 25%;
+  }
+  .f_c_pContentIcon {
+    width: 20%;
+  }
+  .f_с_p_cIcon1 {
+    width: 10px;
+  }
+  .f_с_p_cIcon2 {
+    width: 15px;
+  }
+  .f_с_p_cIcon3 {
+    width: 15px;
+  }
+  .delateDiv p {
+    font-size: 0.4em;
+  }
+}
+
+@media (max-width: 320px) {
+  .f_c_pContentLogo button {
+    font-size: 0.5em !important;
+  }
+  .svgIcons {
+    width: 15px;
+    height: 15px;
+  }
+  .fProductDelate {
+    height: 15px;
+  }
+  .fProductInGarbage {
+    height: 15px;
+  }
+
+  .delateDiv {
+    margin-top: 0;
+    height: 15px;
+    text-align: center;
+  }
+  .garbageDiv {
+    margin-top: 0;
+    height: 15px;
+    text-align: center;
+    font-size: 0.3em;
+  }
+  .AnsToFAQContentAnswers button {
+    height: 17px;
+    font-size: 0.7em;
+  }
+  .l-ViewedCard {
+    height: 60px;
+    position: relative;
+  }
+  .l-ViewedCard span {
+    font-size: 0.5em;
+  }
+}

@@ -1,0 +1,4 @@
+.fq_line{
+    display: flex;
+    justify-content: space-around;
+}

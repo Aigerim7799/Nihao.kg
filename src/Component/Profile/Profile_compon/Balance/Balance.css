@@ -1,0 +1,155 @@
+.profile__bal__contentBox{
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    float: right;
+    background-color: white;
+}
+.profile__bal__block1{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    margin-top: 20px;
+}
+.profile__bal__name{   
+    width: 100%;
+    display: flex;
+}
+.profile__bal__name p{
+    width: 20%;
+    margin: 0;
+    color: red;
+    font-weight: 590;
+    font-size: 16px;
+}
+.profile__bal__line{
+    height: 2px;
+    width: 80%;
+    background-color: red;
+    margin-top: 12px;
+}
+.profile__bal__miniContent{
+    width: 100%;
+    height: 92%;    
+    display: flex;
+}
+.profile__bal__ul{
+    width: 60%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.profile__bal__ul p{
+    font-size: 16px;
+    line-height: 45px;
+    font-family: Microsoft YaHei UI;
+    color: red;
+    font-weight: 340;
+}
+.profile__bal__ul p span{
+    color: #000;
+    font-weight: 520;
+}
+.profile__bal__btns{
+    width: 40%;
+    line-height: 45px;
+    margin: auto;
+    margin-top: 20%;
+}
+.profile__bal__checkBtn{
+    width: 170px;
+    height: 35px;
+    color: red;
+    border-color: red;
+    border: 2px solid red;
+    background-color: white;
+    outline: none;
+    font-family: Microsoft YaHei UI;
+    cursor: pointer;
+}
+.profile__bal__checkBtn:active{
+    background: red;
+    color: white;
+}
+
+
+
+
+
+
+.profile__bal__block2{
+    width: 90%;
+    margin: auto;
+    height: 180px;
+}
+.profile__bal__name2{   
+    width: 100%;
+    display: flex;
+}
+.profile__bal__name2 p{
+    width: 35%;
+    margin: 0;
+    color: red;
+    font-weight: 590;
+    font-size: 16px;
+}
+.profile__bal__line2{
+    height: 2px;
+    width: 65%;
+    background-color: red;
+    margin-top: 12px;
+}
+.profile__bal__uls{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+.profile__bal__ul1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.profile__bal__radioInp{
+    width: 15px;
+    height: 15px;
+}
+.profile__bal__ul2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+.profile__bal__block3{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.profile__bal__name3{   
+    width: 100%;
+    display: flex;
+}
+.profile__bal__name3 p{
+    width: 35%;
+    margin: 0;
+    color: red;
+    font-weight: 590;
+    font-size: 16px;
+}
+.profile__bal__line3{
+    height: 2px;
+    width: 65%;
+    background-color: red;
+    margin-top: 12px;
+}

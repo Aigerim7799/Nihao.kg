@@ -1,0 +1,192 @@
+.fq-container-fq{
+    margin-left: 10%;
+    width: 85%;
+    
+}
+.quarentee{
+    color: red;
+}
+.quarentee-p{
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 320px ) and (min-width: 200px){
+    .quarentee{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 13px;    
+        line-height: 20px;
+    }
+    .quarentee-text{
+        font-size: 13px;
+        line-height: 20px;        
+    }
+}
+@media screen and (max-width: 380px ) and (min-width: 340px){
+    .quarentee{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 14px;    
+    }
+    .quarentee-text{
+        font-size: 13px;
+        line-height: 21px;        
+    }
+}
+@media screen and (max-width: 430px ) and (min-width: 400px){
+    .quarentee{
+        color: red;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 5%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 15px;    
+    }
+    .quarentee-text{
+        font-size: 14px;
+        line-height: 24px;        
+    }
+}
+@media screen and (max-width: 510px ) and (min-width: 490px){
+    .quarentee{
+        color: red;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 15px;    
+    }
+    .quarentee-text{
+        font-size: 15px;
+        line-height: 25px;        
+    }
+}
+@media screen and (max-width: 610px ) and (min-width: 550px){
+  
+    .quarentee{
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 16px;    
+    }
+    .quarentee-text{
+        font-size: 15px;
+        line-height: 25px; 
+        margin-top: 5%;       
+    }
+}
+@media screen and (max-width: 770px ) and (min-width: 650px){
+    .quarentee{
+        color: red;
+        font-size: 21px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 16px;    
+    }
+    .quarentee-text{
+        font-size: 15px;
+        line-height: 25px; 
+        margin-top: 5%;       
+    }
+}
+@media screen and (max-width: 1030px ) and (min-width: 800px){
+    
+    .quarentee{
+        color: red;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 18px;    
+    }
+    .quarentee-text{
+        font-size: 17px;
+        line-height: 30px; 
+        margin-top: 5%;       
+    }
+}
+@media screen and (max-width: 1290px ) and (min-width: 1100px){
+    .quarentee{
+        color: red;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 22px;    
+    }
+    .quarentee-text{
+        font-size: 22px;
+        line-height: 40px; 
+        margin-top: 5%;       
+    }
+}
+@media screen and (max-width: 1410px ) and (min-width: 1300px){
+    .quarentee{
+        color: red;
+        font-size: 31px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 24px;    
+    }
+    .quarentee-text{
+        font-size: 24px;
+        line-height: 45px; 
+        margin-top: 5%;       
+    }
+}
+@media screen and (max-width: 1690px )and (min-width: 1500px){
+    .quarentee{
+        color: red;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .quarentee-p{
+        font-weight: bold;
+        font-size: 28px;    
+    }
+    .quarentee-text{
+        font-size: 27px;
+        line-height: 45px; 
+        margin-top: 5%;       
+    }
+}

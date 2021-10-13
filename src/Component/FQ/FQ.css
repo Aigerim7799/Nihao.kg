@@ -1,0 +1,123 @@
+.question-card{
+  width: 96%;
+  margin: auto;
+  height:400px;
+  background-color: white;
+  padding-bottom: 3%;
+  margin-top: 2%;
+  box-shadow: var(--shadow);
+}
+.question-header{
+  height: 40px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center ;
+}
+a, p{
+text-decoration: none;
+border: none;
+list-style: none;
+}
+
+.question-header p{
+  margin-left: 2%;
+  margin-top: 10px;
+  font-weight: 390;
+  font-size: 21px;
+}
+.Q-card{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+}
+.phone{ 
+  width: 40%;
+  height: 100%;   
+}
+.step{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.question{
+  font-size: 20px;
+  width:90% ;
+  height: 35px;
+  border: 1.5px solid red;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.question p{
+  font-weight: 390;
+  color: red;
+  margin-top: auto;
+}
+.question:hover{
+  background-color: red;
+}
+.question p:hover{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+@media screen and (max-width:1280px){
+  .question-card{
+    width: 96%;
+    margin: auto;
+    height:300px;
+    background-color: white;
+    padding-bottom: 3%;
+    margin-top: 2%;
+}
+.phone{
+  height: 100%;
+}
+}
+@media screen and (max-width:768px){
+  .step{
+    width: 90%;
+    margin: auto;
+  }
+  .phone{ 
+    width: 50%;
+    height: 100%;
+    display: none;
+  }
+  .Q-card{
+    padding-top: 3%;
+  }
+  .question-card{
+    width: 96%;
+    margin: auto;
+    height:auto;
+    background-color: white;
+    padding-bottom: 3%;
+    margin-top: 2%;
+}
+.question{
+  font-size: 20px;
+  width: 100% ;
+  height: 35px;
+  border: 1.5px solid red;
+  margin-bottom: 2%;
+  align-items: center;
+  text-align: center;
+}
+.question-header{
+  height: 40px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center ;
+  font-size: 10%;
+}
+.question-header p{
+  margin-left: 2%;
+  margin-top: 10px;
+  font-weight: 390;
+  font-size: 15px;
+}
+}

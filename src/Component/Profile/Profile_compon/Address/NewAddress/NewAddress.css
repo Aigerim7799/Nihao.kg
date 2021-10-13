@@ -1,0 +1,42 @@
+.profile__add__todoCard{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile__add__leftBox{
+    height: 100%;
+    color: red;
+}
+.profile__add__leftBox p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.profile__add__rightBox{
+    height: 100%;
+    display: flex;
+    
+}
+.profile__add__address{
+    text-align: right;
+}
+.profile__add__editBtn{
+    width: 30px;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.profile__add__mark{
+    height: 100%;
+    width: 20px;
+    margin: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}

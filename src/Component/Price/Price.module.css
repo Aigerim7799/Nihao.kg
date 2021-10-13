@@ -1,0 +1,175 @@
+.price_line{
+    width: auto;
+    height: 35px;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.price__item{
+    width: 100%;
+    min-height: 300px;
+    max-height: 500px;
+    background-color: white;
+    padding-bottom: 2%;
+    overflow-y: scroll;
+}
+.price_wrap{
+    width: 96%;
+    margin: auto;
+    box-shadow: var(--shadow);
+    margin-top: 3%;
+}
+.Price_text{
+    font-size:18px;
+    margin: 0;
+    margin-left: 2%;
+    color:white;
+    font-family: Microsoft YaHei UI,Arial, Helvetica, sans-serif;
+}
+.price_rel{
+    position: relative;
+}
+.Price_wrapper{
+    display: flex;
+    width: 100%;
+    background: #fff;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+
+}
+.Price_block{
+    width: 15%;
+    margin:auto;
+    margin-top: 2%;
+    position: relative;
+}
+.Price_img{
+    width:100%;
+}
+.Price_block_red{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    background: red;
+}
+.Price_tt_text{
+    font-size: 14px;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+.Price_price{
+    position: relative;
+    color:white;
+    font-size: 1vw;
+    padding: 1%;
+    left: 3%;
+}
+.offer_svg_wh{
+    fill:none;
+    position: absolute;
+    stroke:white;
+    width: 1.6vw;
+    bottom:0%;
+    right: 2%; 
+}
+.Price_like{
+    cursor: pointer;
+}
+.Modal{
+    display: flex; 
+    width: 100%;
+}
+.modal_flex{
+    justify-content: space-between;
+    display: flex;
+    height: 80%;
+}
+.ModalWin{
+    width:80% ;
+    height:50% ;
+    margin: 10% 10% ;
+    border-radius:0px;
+}
+.ModalHeader{
+    background: red;
+}
+.ModalTitle{
+    text-align: center;
+    color: white ;
+    font-size: 1.3vw ;
+}
+.ModalBody{
+    width:100% ;
+    height: auto;
+    overflow: hidden;
+}
+.more:hover{
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.more{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+    width: 150px;
+    height: 35px;
+    font-size:1vw;
+    border: 1px solid red;
+    margin-top:20%;
+    background: none;
+    margin-left: 25%;
+}
+.modal_corousel{
+    width:45%;
+    height: 100%;
+    position: relative;   
+}
+.modal_text{
+    display: block;
+    background: red;
+}
+.modal_info{
+    width: 50%;
+    height: 100%;
+    background: url('../Banner/img/Gt.jpg');
+}
+.modal_info_blur{
+    width: 100%;
+    margin: 8% auto 0% auto;
+    color:black;
+    height: 95%;
+    backdrop-filter: blur(10px);
+    padding: 0 5%;
+}
+.modal_info_text{
+    width: 70%;
+    overflow-x:auto;
+    height: 180px;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: 300;
+}
+.modal_info_span{
+    color:red;
+    font-weight: 700;
+}
+.modal_left_icon{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.header__user:hover + .header__inputText{
+    display: inline;
+    margin: 3px 0px 0px 45px;
+    position: absolute;
+}
+.header__input:hover + .header__user{
+    stroke: white;
+}

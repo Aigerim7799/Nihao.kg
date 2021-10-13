@@ -1,0 +1,287 @@
+.header__header {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid red;
+  position: sticky;
+  z-index: 50;
+  position: relative;
+}
+.header__general {
+  width: 65%;
+  margin: auto;
+}
+.header__logo {
+  position: absolute;
+  left: 1%;
+  top: 10%;
+  width: 220px;
+  height: 150px;
+  cursor: pointer;
+  background: transparent;
+}
+.header__description {
+  font-size: 2vw;
+  margin-bottom: 10px;
+  font-family: Microsoft YaHei UI;
+  font-style: normal;
+  font-weight: 345;
+  margin-top: 10px;
+}
+.header__src {
+  width: 99%;
+  height: 50px;
+  border: 3px solid red;
+  display: flex;
+}
+.header__inp {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+.header__inp::placeholder {
+  font-size: 17px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Microsoft YaHei UI;
+  font-style: normal;
+  font-weight: 290;
+}
+.header__lupa {
+  width: 25px;
+  height: 25px;
+  stroke: #b6b6b6;
+  transition: 0.2s ease;
+}
+.header__lupa:hover {
+  stroke: red;
+  width: 35px;
+  height: 35px;
+  transition: 0.2s ease;
+}
+.header__btn {
+  width: 50px;
+  margin: 5px 0px 0px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.header__downBlock {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__leftPoints {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__rightPoints {
+  width: 160px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.header__rightPoints :hover {
+  width: 160px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__rightPoints a {
+  text-decoration: none;
+  list-style: none;
+  color: red;
+  margin: auto;
+}
+.header__point {
+  width: 30px;
+  height: 30px;
+}
+.header__heart {
+  fill: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header__heart:hover {
+  fill: red;
+}
+.header__corzina {
+  fill: white;
+}
+.header__corzina:hover {
+  fill: red;
+}
+.header__user {
+  float: left;
+  border: none;
+  stroke: red;
+  background: transparent;
+  z-index: 7;
+}
+.header__inputText {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  width: 50px;
+  transition: 0.3s;
+  position: absolute;
+  margin: 3px 0px 0px 10px;
+  display: block;
+  font-size: 18px;
+  font-weight: 590;
+  z-index: -3;
+}
+.header__user:hover + .header__inputText {
+  color: red;
+  margin-left: 35px;
+}
+.header__inputText:hover {
+  margin-left: 35px;
+  color: red;
+}
+
+@media screen and (max-width: 1440px) {
+
+  .header__logo {
+    width: 150px;
+    height: 120px;
+    margin-top: 0.5%;
+  }
+}
+
+@media screen and (max-width: 1405px) {
+
+}
+
+@media screen and (max-width: 1350px) {
+ 
+  .header__logo {
+    width: 140px;
+    height: 110px;
+    top: 14%;
+  }
+  .header__downBlock {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1305px) {
+
+}
+
+@media screen and (max-width: 1240px) {
+
+  .header__downBlock {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .header__general {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  
+  .header__logo {
+    width: 120px;
+    height: 90px;
+    left: 1.5%;
+    top: 15%;
+  }
+  .header__src {
+    height: 45px;
+  }
+  .header__point {
+    width: 25px;
+    height: 25px;
+  }
+  .header__downBlock {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+
+  .header__general{
+    margin-right: 10%;  
+  }
+}
+
+@media screen and (max-width:768px){
+  .header__general{
+    margin-right: 8%;
+    width: 70%;
+  }
+.header__downBlock{
+  height: 40px;
+}
+}
+
+@media screen and (max-width:600px){
+
+  .header__general{
+    margin-right: 5%;
+  }
+  .header__logo{
+    width: 100px;
+    height: 80px;
+    top: 14%;
+  }
+  .header__downBlock{
+    height: 35px;
+  }
+  .header__inp::placeholder{
+    font-size: 12px;
+    margin: auto;
+  }
+  .header__description{
+    font-weight: 390;
+  }
+}
+
+@media screen and (max-width:500px){
+  .header__rightPoints a{
+    font-size: 14px;
+  }
+  .header__description{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:426px){
+  .header__general{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header__description{
+    width: 50%;
+    font-size: 11px;
+    height: 50px;
+    margin-left: 50%;
+    text-align: right;
+    font-weight: 490;
+  }
+  .header__logo{
+    width: 80px;
+    height: 60px;
+    top: 0;
+    left: 5%;
+  }
+}

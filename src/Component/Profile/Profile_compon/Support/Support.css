@@ -1,0 +1,133 @@
+.profile__sup__contentBox{
+    width: 100%;
+    height: 1000px;
+    float: right;
+    background: white;
+}
+.profile__sup__block1{
+    width: 90%;
+    margin: auto;
+}
+.profile__sup__name{   
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.profile__sup__name p{
+    width: 25%;
+    margin: 0;
+    color: red;
+    font-weight: 590;
+    font-size: 16px;
+}
+.profile__sup__line{
+    height: 2px;
+    width: 75%;
+    background-color: red;
+    margin-top: 12px;
+}
+.profile__sup__miniContent{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background: white;
+}
+
+.profile__sup__title{
+    font-size: 25px;
+    color: red;
+    font-weight: 490;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.profile__sup__topic{
+    width: 100%;
+    height: 70px;
+}
+.profile__sup__topicText{
+    color: red;
+    width: 100%;
+    margin: 5px;
+}
+.profile__sup__topicInp{
+    width: 90%;
+    height: 25px;
+    margin-left: 3%;
+}
+
+.profile__sup__order{
+    width: 100%;
+    height: 60px;
+}
+.profile__sup__orderText{
+    color: red;
+    margin: 5px;
+    width: 100%;
+}
+.profile__sup__orderInp{
+    width: 93%;
+    margin-left: 3%;
+    height: 25px;
+}
+
+
+.profile__sup__category{
+    width: 100%;
+    height: 60px;
+}
+.profile__sup__categoryText{
+    color: red;
+    margin: 5px;
+    width: 100%;
+}
+.profile__sup__categoryInp{
+    width: 93%;
+    margin-left: 3%;
+    height: 25px;
+}
+
+
+.profile__sup__sms{
+    width: 100%;
+}
+.profile__sup__smsText{
+    color: red;
+    margin: 5px;
+    width: 100%;
+}
+.profile__sup__smsInp{
+    width: 60%;
+    margin-left: 3%;
+    height: 100px;
+}
+
+.profile__sup__sendBtn{
+    width: 100px;
+    height: 40px;
+    color: red;
+    border: 2px solid red;
+    background: transparent;
+    margin: 40px;
+    cursor: pointer;
+}
+.profile__sup__sendBtn:active{
+    background: red;
+    color: white;
+}
+
+@media screen and (max-width:1280px){
+    .profile__sup__contentBox{
+        height: 900px;
+    }
+}
+@media screen and (max-width:1024px){
+    .profile__sup__contentBox{
+        height: 800px;
+    }
+}
+@media screen and (max-width:768px){
+    .profile__sup__contentBox{
+        height: 600px;
+    }
+}

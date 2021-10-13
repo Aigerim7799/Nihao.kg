@@ -1,0 +1,26 @@
+#homepage__wrapper{
+  width:90%;
+  margin: 0 auto;
+}
+.homepage__wrap{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin:0 13%;
+  backdrop-filter:blur(30px);
+}
+.homepage__app{
+  background-image: url(./Banner//img/sprite.png);
+}
+
+@media screen and (max-width:600px){
+  .homepage__app{
+    background: none;
+  }
+  .homepage__wrap{
+    margin: 0;
+    backdrop-filter: none;
+  }
+  #homepage__wrapper{
+    width: 100%;
+  }
+}

@@ -1,0 +1,87 @@
+
+.productCatalog{
+    width: 96%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    margin-top: 3%;
+    box-shadow: var(--shadow);
+    overflow-x: hidden !important;
+}
+.catalog__tab{
+    background-color: white !important;
+    border: 2px solid red !important;
+    color: red !important;
+}
+.makeStyles-root-89{
+    margin: auto !important;
+}
+.catalog__swipeableView{
+    overflow-x: hidden !important;
+}
+.headerProdCatalog{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    font-size: 21px;
+    align-items: center;
+    background-color: red;
+
+}.headerProdCatalog p{
+    color: white;
+    display: inline;
+    margin: 0 0 0 1%;
+}
+
+.Catalog__button{
+    display: flex;
+    justify-content: center;
+    width: 46%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.choice{
+    width: 10%;
+    padding: 0.5% 0 0.5% 0;
+    border: 1px solid red;
+    color: red;
+}
+
+#TAOBAO{
+    background-color: red;
+    color: white;
+}
+
+#s1080{
+    background-color:white;
+}
+
+.Catalog__List{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Catalog__List li{
+    line-height: 20px;
+    height: 20px;
+}
+.Catalog__leftList{
+    margin: 0 0 0 0;
+    width: 45%;
+}
+.Catalog__rightList{
+    width: 45%;
+    padding-right: 2%;
+}
+
+.phoneCatalog{
+    width: 80%;
+    height: auto;
+    padding-bottom: 3%;
+    margin: 0 0 2% 10%;
+    background-color: white;
+}

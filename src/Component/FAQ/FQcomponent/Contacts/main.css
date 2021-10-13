@@ -1,0 +1,466 @@
+.fq_tabs{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fq_table{
+    font-weight: bold;
+}
+p{ 
+    white-space: pre-wrap; 
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fq_red{
+    color: red;
+    font-weight:bold
+}
+.fq_tabs_red{
+    color: red;
+    font-weight:bold
+}
+.fq_blue{
+    color:blue;
+    font-weight:bold
+}
+
+.fq_yellow{
+    color: black;
+    font-weight: bold;
+}
+@media screen and (max-width: 320px ) and (min-width: 200px){
+    .fq_tabs_{
+        font-size: 16px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold;
+        
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold;
+        font-size: 14px;
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 380px ) and (min-width: 340px){
+    .fq_tabs_{
+        font-size: 16px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold;
+        font-size: 13px;
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 430px ) and (min-width: 400px){
+    .fq_tabs_{
+        font-size: 18px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 510px ) and (min-width: 490px){
+    .fq_tabs_{
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 15px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 120px;
+    }
+}
+@media screen and (max-width: 610px ) and (min-width: 550px){
+    .fq_tabs_{
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 14px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 130px;
+    }
+}
+@media screen and (max-width: 770px ) and (min-width: 650px){
+    .fq_tabs_{
+        font-size: 22px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 14px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 170px;
+    }
+}
+@media screen and (max-width: 1030px ) and (min-width: 800px){
+    .fq_tabs_{
+        font-size: 25px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 17px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold;
+        font-size: 17px;
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold;
+        font-size: 17px;
+        line-height: 30px
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 1290px ) and (min-width: 1100px){
+    .fq_tabs_{
+        font-size: 28px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold;
+        font-size: 22px;
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold;
+        font-size: 22px;
+        line-height: 40px
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 220px;
+    }
+}
+@media screen and (max-width: 1410px ) and (min-width: 1300px){
+    .fq_tabs_{
+        font-size: 32px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold;
+        font-size: 24px;
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold;
+        font-size: 24px;
+        line-height: 45px
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 1690px ) and (min-width: 1500px){
+    .fq_tabs_{
+        font-size: 35px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .fq_table{
+        font-weight: bold;
+        font-size: 27px;
+        
+    }
+    .fq_tabs_p{ 
+        white-space: pre-wrap; 
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .fq_red{
+        color: red;
+        font-weight:bold;
+        font-size: 28px;
+    }
+    .fq_tabs_red{
+        color: red;
+        font-weight:bold;
+        font-size: 28px;
+        line-height: 45px
+    }
+    .fq_blue{
+        color:blue;
+        
+    }
+    
+    .fq_yellow{
+        color: black;
+        font-weight: bold;
+    }
+    .fq-map{
+        width: 90%;
+        height: 300px;
+    }
+}

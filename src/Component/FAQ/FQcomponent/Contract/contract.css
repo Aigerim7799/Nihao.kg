@@ -1,0 +1,190 @@
+.fq-container-fq{
+    margin-left: 10%;
+    width: 85%;
+}
+.contract{
+    color: red;
+}
+.contract-span{
+    font-weight: bold;
+}
+@media screen and (max-width: 320px ) and (min-width: 200px){
+    .contract{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .contract-text-fq{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 380px ) and (min-width: 340px){
+    .contract{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .contract-text-fq{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media screen and (max-width: 430px ) and (min-width: 400px){
+    .contract{
+        color: red;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .contract-text-fq{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 510px ) and (min-width: 490px){
+    .contract{
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .contract-text-fq{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 610px ) and (min-width: 550px){
+    .contract{
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 16px;
+        
+    }
+    .contract-text-fq{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 770px ) and (min-width: 650px){
+    .contract{
+        color: red;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 17px;
+        
+        
+    }
+    .contract-text-fq{
+        font-size: 16px;
+        line-height: 25px;
+    
+    }
+}
+@media screen and (max-width: 1030px ) and (min-width: 800px){
+    .contract{
+        color: red;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 18px;   
+    }
+    .contract-text-fq{
+        font-size: 18px;
+        line-height: 30px;
+    
+    }
+}
+@media screen and (max-width: 1290px ) and (min-width: 1100px){
+    .contract{
+        color: red;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 23px;    
+    }
+    .contract-text-fq{
+        font-size: 22px;
+        line-height: 40px;
+    
+    }
+}
+@media screen and (max-width: 1410px ) and (min-width: 1300px){
+    .contract{
+        color: red;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 24px;
+           
+    }
+    .contract-text-fq{
+        font-size: 24px;
+        line-height: 45px;
+    
+    }
+}
+@media screen and (max-width: 1690px )and (min-width: 1500px){
+    .contract{
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .contract-span{
+        font-weight: bold;
+        font-size: 29px;
+           
+    }
+    .contract-text-fq{
+        font-size: 27px;
+        line-height: 45px;
+    
+    }
+}

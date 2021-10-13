@@ -1,0 +1,612 @@
+.fq-container-fq{
+    margin-left: 10%;
+    width: 85%;
+}
+.deliver{
+    color: red;
+    font-size: 24px;
+}
+
+.deliver-product{
+    text-align: center;
+    color: red;
+}
+.deliver-product-p{
+    line-height: 40px;
+}
+.first-stage{
+    color: blue;
+}
+.stage-text{
+    line-height: 32px;
+}
+.china{
+   color: red; 
+}
+.important{
+    color: red;
+    font-weight: bold;
+}
+.second-stage{
+    color: blue;
+}
+.span-deliver{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+.important-text{
+    color: red;
+    font-weight: bold;
+}
+@media screen and (max-width: 320px ) and (min-width: 200px){
+    .deliver{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 13px;
+    }
+    .deliver-product-p{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .stage-text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 13px;
+       line-height: 20px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+    } 
+}
+@media screen and (max-width: 380px ) and (min-width: 340px){
+    .deliver{
+        color: red;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 14px;
+    }
+    .deliver-product-p{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .stage-text{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 14px;
+       line-height: 21px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 21px;
+    } 
+}
+@media screen and (max-width: 430px ) and (min-width: 400px){
+    .deliver{
+        color: red;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    .deliver-product-p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .stage-text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 15px;
+       line-height: 25px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+    } 
+}
+@media screen and (max-width: 510px ) and (min-width: 490px){
+    .deliver{
+        color: red;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    .deliver-product-p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .stage-text{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 15px;
+       line-height: 25px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+    } 
+}
+@media screen and (max-width: 610px ) and (min-width: 550px){
+    .deliver{
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    .deliver-product-p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .stage-text{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 15px;
+       line-height: 25px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 22px;
+    } 
+}
+@media screen and (max-width: 770px ) and (min-width: 650px){
+
+    .deliver{
+        color: red;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 16px;
+    }
+    .deliver-product-p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .stage-text{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 16px;
+       line-height: 25px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+    } 
+}
+@media screen and (max-width: 1030px ) and (min-width: 800px){
+    .deliver{
+        color: red;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 17px;
+    }
+    .deliver-product-p{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .stage-text{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 17px;
+       line-height: 30px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 30px;
+    } 
+}
+@media screen and (max-width: 1290px ) and (min-width: 1100px){
+    .deliver{
+        color: red;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 22px;
+    }
+    .deliver-product-p{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .stage-text{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 22px;
+       line-height: 40px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 40px;
+    } 
+}
+@media screen and (max-width: 1410px ) and (min-width: 1300px){
+    .deliver{
+        color: red;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 24px;
+    }
+    .deliver-product-p{
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .stage-text{
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 24px;
+       line-height: 45px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 45px;
+    } 
+}
+@media screen and (max-width: 1690px )and (min-width: 1500px){
+    .deliver{
+        color: red;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    
+    .deliver-product{
+        text-align: center;
+        color: red;
+        font-size: 28px;
+    }
+    .deliver-product-p{
+        font-size: 27px;
+        line-height: 50px;
+    }
+    .first-stage{
+        color: blue;
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .stage-text{
+        font-size: 27px;
+        line-height: 50px;
+    }
+    .china-deliver{
+       color: red; 
+       font-size: 28px;
+       line-height: 50px;
+    }
+    .important{
+        color: red;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .second-stage{
+        color: blue;
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .span-deliver{
+        color: red;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .important-text{
+        color: red;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 50px;
+    } 
+}

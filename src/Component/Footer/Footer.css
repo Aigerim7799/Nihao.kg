@@ -1,0 +1,100 @@
+.Footer{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+.Footer_heder{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.icon__f{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+a.google {
+    background: url(../img/Google.png) no-repeat center/cover; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 40px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+   }
+   a.google:hover {
+    background: url(../img/Google2.png)  no-repeat center/cover; /* Путь к файлу с заменяемым рисунком  */
+   }
+   a.twitter {
+    background: url(../img/Twiter.png) no-repeat center/cover; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 40px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+   }
+   a.twitter:hover {
+    background: url(../img/Twitter.png) no-repeat center/cover; /* Путь к файлу с заменяемым рисунком  */
+   }
+   a.tiktok {
+    background: url(../img/TikTok.png) no-repeat center/cover; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 40px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+   }
+   a.tiktok:hover {
+    background: url(../img/TikTok\ 2.png) no-repeat center/cover; /* Путь к файлу с заменяемым рисунком  */
+   }
+   a.telegram {
+    background: url(../img/Telegram.png) no-repeat center/cover; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 40px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+   }
+   a.telegram:hover {
+    background: url(../img/Telegram2.png) no-repeat center/cover; /* Путь к файлу с заменяемым рисунком  */
+   }
+   a.insatagram {
+    background: url(../img/Instagram\ -\ Negative.png) no-repeat center/cover; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 40px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+   }
+   a.insatagram:hover {
+    background: url(../img/Instagram.png) no-repeat center/cover; /* Путь к файлу с заменяемым рисунком  */
+   }
+   a.youtybe {
+    background: url(../img/YouTube\ -\ Negative\ -\ Alternate.png) no-repeat center/cover; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 40px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+   }
+   a.youtybe:hover {
+    background: url(../img/YouTube\ -\ Alternate.png) no-repeat center/cover; /* Путь к файлу с заменяемым рисунком  */
+   }
+   a.facebook {
+    background: url(../img/Facebook\ -\ Negative.png) no-repeat center/cover; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунpngок как блочный элемент */
+    width: 40px; /* Ширина рисунка */
+    height: 40px; /*  Высота рисунка */
+   }
+   a.facebook:hover {
+    background: url(../img/Facebook.png) no-repeat center/cover; /* Путь к файлу с заменяемым рисунком  */
+   }
+
+
+
+@media screen and (max-width:600px){
+    .Footer_heder{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .Footer{
+        height: auto;
+    }
+    .icon__f{
+        width: 35px;
+        height: 35px;
+    }
+}

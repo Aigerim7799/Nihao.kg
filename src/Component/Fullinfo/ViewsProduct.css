@@ -1,0 +1,364 @@
+
+.main-wrapper{
+    width: 100%;
+     background-color: rgb(192, 200, 131);
+    }
+    .full__wrapper{
+        margin: 0 12%;
+        background-color: darkcyan;
+        padding-top: 50px;
+        }
+    
+    
+    .fullView{
+        background-color: white;
+        width: 96%;
+        margin:auto;
+    }
+    .fullViewHeader{
+        background-color: red;
+        width: 100%;
+        padding: 0 2%;
+        height: 40px;
+        padding-top: 5px;
+        align-items: center;
+    }.fullViewHeader p{
+        color: white;
+        font-size: 20px;
+    }
+    .fullViewContent{
+        width: 96%;
+        padding: 0 2%;
+    }
+    .fvc-productName{
+        margin-top: 2%; 
+    }
+    
+    
+    .fvc-productMainInfo{   
+        width: 100%;
+        display: flex;
+        margin-top:2%;
+        justify-content: space-between;
+    }
+    
+    .fvc-productViewImg {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }.fvc-pViewImgMainFull{
+        width:250px;
+        margin-left: 10px;
+    }
+    .fvc-pTypeСharacter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fvc-productViewImgAll{
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fvc-pViewImgCarousel{
+        width: 280px !important;
+        height: 300px;
+    }
+    
+    .fvc-pVImgAll{
+        width: 60px;
+        padding: 1%;
+        cursor: pointer;
+    }
+    .fvc-productViewOriginalLink{
+        width: 100%;
+        margin-top: 3%;
+        
+    }.fvc-productViewOriginalLink a{
+        float: right;
+        color: black;
+    }.fvc-productViewOriginalLink a:hover{
+        cursor: pointer;
+        text-decoration:none ;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .fvc-productInfo{
+        width: 45%;
+        margin-left: 10px;
+    }.fvc-pInfoName{
+        margin-top: 13px;
+    }
+    .fvc-pInfoMemoryKinds{
+        width: 100%;
+        display: flex;
+    }
+    .fvc-pInfoMemoryKinds button{
+        padding: 0 5px;
+        
+        height: 30px;
+        background-color: transparent;
+        border: 2px solid blue;
+        margin-right: 5px;
+        margin-top: 5px;
+        
+    }.fvc-pInfoName span{
+        font-size: .7em;
+    }
+    .fvc-pInfoHardDiskCapacity button {
+        border: 1px solid silver ;
+        padding: 0 5px;
+        background-color: transparent;
+        margin-top: 5px;
+        margin-left: 5px;
+    }.fvc-pInfoHardDiskCapacity button:focus{
+
+        border: 2px solid blue ;
+    }
+
+    
+    .fvc-pInfoTotalPrice{
+        margin-top: 3%;
+        height: 30px;
+        padding-top: 6px;
+        background-color:  #f6f6f6;
+        
+    }.fvc-pInfoTotalPrice p {
+        margin-left: 10px;
+       color: silver;
+        
+    }.fvc-pInfoTotalPrice p span{
+        font-weight: 600;
+        color:red ;
+        
+    }
+    .fvc-pInfoAdd{
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: flex;justify-content: space-around;
+    }
+    .fvc-pInfoAddButton{
+       outline: none;
+       cursor: pointer;
+       display: flex;
+       padding: 1%;
+    }
+    .fvc-pInfoAddButton p{
+        margin-top: 5px;
+        margin-left: 2px;
+    }
+    .fvc-pInfoAddBasket{
+        background-color: red;
+        width: 50%;
+        height: 50px;
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        color: white;
+    
+    }.fvc-pInfoAddBasket:hover{
+        border: 1px solid red;
+    
+        background-color: white;
+        transition: .5s;
+        color: red;
+    }
+    .fvc-pInfoAddBasket:active{
+        transition: .1s;
+        background-color: red;
+        color: white;
+    }
+    .fvc-pInfoAddFavorites{
+        background-color: white;
+        border: 1px solid silver;
+        width: 45%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .fvc-pInfoAddFavorites p{
+        margin: auto;
+    }
+    .fvc-pInfoAddBasket p{
+        align-items: center;
+        margin: auto;
+    }
+    .fvc-pInfoAddFavorites:hover{
+        border: 1px solid red;
+        transition: .5s;
+        color: red;    
+    }
+    .fvc-pInfoAddFavorites:active{
+        background-color: red;
+        color: white;
+    }
+    .fvc-pInfoAddFavorites:hover  .fvc-pInfoSvgFavoritesFill{ 
+        stroke: red;
+        fill: red;
+        transition: .5s;
+    }
+    .fvc-pInfoAddBasket:hover .fvc-pInfoSvgBasketFill{
+        stroke: red;
+        fill: red;
+        transition: .5s; 
+    }
+    
+    .fvc-pInfoSvgBasketFill{
+        stroke: white;
+        fill: white;
+    }
+    
+    
+    .fvc-pInfoSvgBasket{
+        display: inline;
+    }.fvc-pInfoSvgFavorites{
+        margin-top: 2px;
+        display: inline;
+    }
+    .fvc-pInfoSvgFavoritesFill{
+        stroke: silver;
+        fill: silver;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .fvc-productProvider{
+        background-color: #f6f6f6;
+        width: 18%;
+        padding: 1%;
+    }
+    .fvc-pProviderName p:first-child{
+        font-size: .8em;
+    }.fvc-pProviderName p:last-child{
+        display: inline;
+        border-bottom: 1px solid black;
+    }
+    
+    
+    
+    .fvc-pProviderItem{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    
+    .fvc-pProviderItem p:first-child{
+        font-size: .8em;
+    }.fvc-pProviderItem p:last-child{
+        font-size: .8em;
+        display: inline;
+    }
+    
+    .allProductIsProvider{
+        padding-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .allProductIsProvider img{
+        width: 45%;
+        margin: 2%;
+    }.allProductIsProvider{
+        margin-top: 2%;
+        font-size:.7em ;
+    
+    }
+    
+    
+    .fvc-pInfoNumber{
+        display: flex;
+        width: 100%;
+    }
+    
+    .question-card_fullinfo{
+        width: 96%;
+        margin: auto;
+        margin-top: 3%;
+    }
+    
+    .fvc-pInfoNumberBagpiece{
+        display: flex;
+    
+    }
+    .fvc-pInfoNumberBagpiece button{
+        background-color: transparent;
+        border: none;
+        height: 30px;
+        padding-bottom: 5px;
+        color: red;
+    }.fvc-pINBagpieceValue{
+        width: 30px;
+        height: 25px;
+        background-color: transparent;
+        border: none;
+        text-align: center;
+    
+    }
+
+    .fvc-pInfoHardDiskCapacity img{
+        width: 50px;
+
+    }.fvc-pInfoHardDiskCapacity{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .f__tabImgItem{
+        width: 100%;
+    }
+    .f__tabImgItem div img{
+        width: 80%;
+    }
+
+
+    @media screen and (max-width:920px){
+        .fvc-productMainInfo{
+            flex-direction: column;
+        }
+        .fvc-productInfo{
+            width: 100%;
+        }
+        .fvc-productViewImg{
+            width: 100%;
+            align-items: center;
+        }
+        .fvc-pViewImgCarousel{
+            width: 450px !important;
+        }
+        .fvc-productProvider{
+            width: 100%;
+            line-height: 15px;
+        }
+    }
+    @media screen and (max-width:1085px){
+        .fvc-pInfoAddButton p{
+            display: none;
+        }
+        .fvc-pInfoAddButton{
+            width: 30%;
+            height: 39px;
+        }
+        .fvc-pInfoSvgIcons{
+            margin-left: 30%;
+        }
+    }
+    @media screen and (max-width:921px){
+            
+
+
+    }

@@ -1,0 +1,557 @@
+.list__wrap {
+  width: 95%;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  min-height: 400px;
+}
+.list__head {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.list__head p {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  margin: 0;
+  margin-left: 2%;
+}
+.list__points {
+  height: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr 1fr 1fr 1fr;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.ListItem__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__order {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr 1fr 1fr 1fr;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  position: relative;
+}
+
+.list__points div {
+  margin: 0;
+  color: silver;
+}
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: red !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: red !important;
+}
+.MuiButton-containedSecondary {
+  color: red !important;
+}
+.makeStyles-button-3 {
+  color: white !important;
+  background-color: red !important;
+}
+.makeStyles-button-18 {
+  color: white !important;
+  background-color: red !important;
+}
+.MuiButton-root.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.26) !important ;
+}
+.list__originDiv {
+  display: flex;
+  flex-direction: column;
+}
+.list__originDiv div p {
+  line-height: 10px;
+  color: red;
+  font-size: 15px;
+}
+.list__originDiv div p strong {
+  color: black;
+  font-size: 17px;
+}
+.list__configDiv {
+  display: flex;
+  flex-direction: column;
+}
+.list__configDiv p {
+  line-height: 20px;
+  color: silver;
+  font-size: 15px;
+}
+.list__configDiv p strong {
+  color: black;
+  font-size: 17px;
+}
+.list__backPhoto {
+  height: 80px;
+  width: 80px;
+}
+.list__point {
+  text-align: center;
+}
+.list__delete {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-color: red;
+}
+
+.del__wrap {
+  width: 95%;
+  margin: auto;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+.del__head {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+.del__head p {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  margin: 0;
+  margin-left: 2%;
+}
+.del__addressDiv {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.star {
+  color: red;
+}
+.del__first_addDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
+}
+.del__first_addDiv p {
+  margin: 0;
+}
+.del__first_addDiv input {
+  height: 80%;
+  border-radius: 5px;
+  outline: none;
+  border-color: gray;
+}
+.del__wrapDiv {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  padding-left: 20px;
+}
+.del__recipient {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+.del__recipient p {
+  margin: 0;
+  font-size: 19px;
+  color: red;
+  width: 20%;
+}
+.del__recipient2 {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid gray;
+}
+.del__recipient2 p {
+  margin: 0;
+  font-size: 19px;
+  color: red;
+  width: 30%;
+}
+.del__select {
+  height: 80%;
+  width: 40%;
+  cursor: pointer;
+}
+.del__select2 {
+  cursor: pointer;
+  height: 80%;
+  width: 55%;
+}
+
+.del__btn {
+  width: 45px;
+  height: 40px;
+}
+.del__pen {
+  width: 80%;
+  height: 80%;
+}
+.del__btnDiv {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.del__totalDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.del__totalWrap {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.del__totalWrap p {
+  font-size: 19px;
+  color: red;
+  margin: 0;
+  margin-left: 20px;
+}
+.del__totalBox {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.del__totalBoxLeft {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+.del__totalBoxLeft textarea {
+  width: 100%;
+  height: 80px;
+  font-size: 15px;
+  max-height: 130px;
+}
+.del__totalComm {
+  font-size: 17px !important;
+  color: black !important;
+}
+.del__totalBoxRight {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+.del__totalList {
+  font-size: 14px;
+  width: 100%;
+}
+.del__totalList div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 17px;
+}
+.del__totalList span {
+  font-size: 19px;
+}
+.del__border {
+  border-top: 1px solid gray;
+  padding-top: 10px;
+}
+.del__dropdownDiv {
+  width: 100%;
+  height: 250px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.4s;
+  transform: scale(1);
+  opacity: 100;
+}
+.del__dropdownDivNone {
+  height: 0;
+  transition: 0.2s;
+  transform: scale(0);
+  display: flex;
+  opacity: 0;
+}
+.del__dropDownDivRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.del__dropDownDivLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.del__dropDownP {
+  width: 100% !important;
+  margin-left: 20px !important;
+}
+.del__flexDiv {
+  display: flex;
+  justify-content: space-around;
+  text-align: right;
+  align-items: center;
+  width: 80%;
+  margin: 5px;
+  height: 30px;
+}
+.del__flexDiv p {
+  font-size: 16px !important;
+  color: black !important;
+}
+.del__flexDivInp {
+  width: 70%;
+  height: 100%;
+  border-radius: 5px;
+  border-color: red;
+  outline: none;
+}
+
+.ank__wrap {
+  position: relative;
+  width: 95%;
+  min-height: 350px;
+  margin: auto;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.ank__head {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.ank__headP {
+  font-size: 20px;
+  color: red;
+  margin: 0;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.ank__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ank__cntList {
+  width: 100%;
+  padding: 20px;
+}
+.ank__linkDiv {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.ank__link {
+  font-size: 20px;
+}
+.ank__cancelDiv {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.ank__cancelBtn {
+  padding: 10px;
+  font-size: 19px;
+  color: red;
+  background-color: white;
+  border-color: gray;
+  border-radius: 5px;
+}
+.ank__cancelBtn:active {
+  background-color: red;
+  color: white;
+}
+
+.animationP {
+  color: black;
+  animation: ani 1s infinite;
+}
+
+@keyframes ani {
+  0% {
+    color: black;
+    transition: 0.5s;
+  }
+  50% {
+    color: red;
+    font-size: 22px;
+    transition: 0.5s;
+  }
+  100% {
+    color: black;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .ListItem__wrap {
+    display: flex;
+    flex-direction: row;
+  }
+  .list__points {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 0.5fr 0.5fr 0.5fr;
+    border-right: 1px solid gray;
+    border-top: none;
+  }
+  .list__order {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 0.5fr 0.5fr 0.5fr;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 0;
+  }
+  .list__backPhoto {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+  }
+  .MuiStepper-horizontal span {
+    font-size: 2vw !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .MuiStepper-horizontal span {
+    font-size: 2.5vw !important;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .del__addressDiv {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .del__first_addDiv {
+    display: flex;
+  }
+  .del__wrapDiv {
+    justify-content: space-around;
+    padding: 0 !important;
+  }
+  .del__btnDiv {
+    width: auto;
+  }
+  .del__recipient p {
+    font-size: 17px;
+  }
+  .del__recipient2 {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .del__totalBox {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .del__totalBoxLeft {
+    width: 100%;
+  }
+  .del__totalBoxRight {
+    width: 100%;
+    text-align: center;
+  }
+  .del__wrapDiv {
+    flex-direction: column;
+    height: auto;
+  }
+  .del__select {
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    margin: 10px;
+  }
+  .del__btn {
+    margin: 5px;
+  }
+  .del__recipient p {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .del__dropdownDiv {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .del__dropDownDivLeft {
+    width: 100%;
+  }
+  .del__dropDownDivRight {
+    width: 100%;
+  }
+  .del__dropDownP {
+    margin: 10px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ank__headP {
+    font-size: 16px;
+  }
+  .ank__link {
+    font-size: 16px;
+  }
+  .ank__cancelBtn {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .ank__headP {
+    font-size: 12px;
+  }
+  .ank__link {
+    font-size: 14px;
+    width: 95%;
+    margin: auto;
+  }
+  .ank__cancelBtn {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,43 @@
+.deliveryItem{
+margin-top: 2%;
+margin-left: 2%;
+}
+.mainItem{
+    display: flex;
+    width: 60%;
+}
+.item{
+    font-size:18px ;
+}
+.itemRed{
+    color: red;
+}
+.input{
+    margin-top: 1%;
+    width: 100%;
+    outline: none;
+    border: 1px solid silver;
+    height: 100%;
+    border-radius: 2px;
+
+}
+.select{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 1%;
+    border-radius: 2px;
+
+}
+.button{
+    background-color: silver;
+    color: white;
+    width: 100px;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    /* outline: none; */
+    border: 1px solid silver;
+    border-radius: 20px;
+
+}

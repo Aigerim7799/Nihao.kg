@@ -1,0 +1,35 @@
+.profile__ex__contentBox{
+    width: 100%;
+    height: 1000px;
+    float: right;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+.profile__ex__exit{
+    margin-top: 50px;
+    outline: none;
+    border: 3px solid red;
+    background-color: white;
+    box-shadow: var(--shadow);
+}
+.profile__ex__exit:hover{
+    background: red;
+    color: white;
+}
+
+@media screen and (max-width:1280px){
+    .profile__ex__contentBox{
+        height: 900px;
+    }
+}
+@media screen and (max-width:1024px){
+    .profile__ex__contentBox{
+        height: 800px;
+    }
+}
+@media screen and (max-width:768px){
+    .profile__ex__contentBox{
+        height: 600px;
+    }
+}

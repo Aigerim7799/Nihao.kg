@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.rgs__wrap{
+  padding-bottom: 2%;
+}
+.sign-header {
+  height: 35px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.sign-header p {
+  font-size: 18px;
+  font-weight: 490;
+  margin: 0;
+  margin-left: 1.5%;
+}
+.step1 {
+  width: 96%;
+  margin: auto;
+  padding-top: 0.5%;
+}
+.blocks {
+  width: 50%;
+  display: flex;
+  margin: 10px auto;
+}
+.signup-block {
+  background-color: white;
+  margin-top: 0;
+  padding: 7px;
+}
+.secondblock {
+  margin-top: 2%;
+  display: block;
+  width: 40%;
+}
+.form {
+  width: 90%;
+  margin-top: 7%;
+  border: none;
+  border-bottom: 1.5px solid rgb(165, 0, 0);
+  outline: 0;
+  margin-left: 5%;
+  font-size: 16px;
+}
+
+.thirdblock {
+  margin: auto;
+  width: 50%;
+  font-size: 14px;
+  font-weight: 490;
+  text-align: left;
+}
+.divGo {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 40px;
+}
+.Go {
+  font-size: 17px;
+  font-weight: 490;
+  color: red;
+  background-color: white;
+  outline: none;
+  border: 1.5px solid red;
+  margin: 4px;
+  width: auto;
+}
+.Go:hover {
+  background-color: red;
+  color: white;
+}
+.Go p{
+  padding:3px;
+  margin: 0;
+}
+.auth__sogl{
+  font-size: 15px;
+  font-weight: 490;
+  color: red;
+  background-color: white;
+  outline: none;
+  border: 1.5px solid red;
+  padding: 3px;
+  width: 95px;
+  height: 50px;
+}
+.auth__sogl:hover{
+  background-color: red;
+  color: white;
+}
+.auth__sogl p{
+  margin: 0;
+}
+
+@media (device-width: 375px) {
+  .reistr {
+    overflow-x: fixed;
+  }
+  .sign-header p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .signup-card {
+    width: 100%;
+  }
+  .firstblock,
+  .thirdblock {
+    font-size: 10px;
+  }
+  .secondblock {
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 7%;
+  }
+  .form {
+    width: 80%;
+    margin-top: -0.5%;
+  }
+  .Go {
+    font-size: 12px;
+    height: 25px;
+  }
+}
+@media (device-width: 320px) {
+  .reistr {
+    overflow-x: fixed;
+  }
+  .sign-header p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .signup-card {
+    width: 100%;
+  }
+  .firstblock,
+  .thirdblock {
+    font-size: 9px;
+  }
+  .secondblock {
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+  .form {
+    width: 80%;
+    margin-top: -1%;
+  }
+  .Go {
+    height: 25px;
+
+    font-size: 12px;
+    margin-left: 30%;
+  }
+}
+@media (device-width: 411px) {
+  .reistr {
+    overflow-x: fixed;
+  }
+
+  .sign-header p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .signup-card {
+    width: 100%;
+  }
+  .firstblock,
+  .thirdblock {
+    font-size: 9px;
+  }
+  .secondblock {
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .form {
+    margin-top: -1%;
+    width: 80%;
+  }
+  .Go {
+    height: 25px;
+
+    font-size: 12px;
+  }
+}
+@media (device-width: 640px) {
+  .reistr {
+    overflow-x: fixed;
+  }
+
+  .sign-header p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .signup-card {
+    width: 100%;
+  }
+  .firstblock,
+  .thirdblock {
+    font-size: 12px;
+  }
+  .secondblock {
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .form {
+    margin-top: 8%;
+    width: 80%;
+  }
+  .Go {
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+  }
+}
+@media (device-width: 768px) {
+  .reistr {
+    overflow-x: fixed;
+  }
+
+  .sign-header p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .signup-card {
+    width: 100%;
+  }
+  .firstblock,
+  .thirdblock {
+    font-size: 15px;
+  }
+  .secondblock {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+  .form {
+    margin-top: 12%;
+    width: 80%;
+  }
+  .Go {
+    height: 30px;
+    font-size: 15px;
+  }
+  .blocks {
+    margin-left: -10%;
+  }
+}
+@media (device-width: 1024px) {
+  .reistr {
+    overflow-x: fixed;
+  }
+
+  .sign-header p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .signup-card {
+    width: 100%;
+  }
+  .firstblock,
+  .thirdblock {
+    font-size: 12px;
+  }
+  .secondblock {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+  .form {
+    margin-top: 8%;
+    width: 80%;
+  }
+  .Go {
+    height: 35px;
+
+    font-size: 18px;
+  }
+}
+
+@media (device-width: 500px) {
+  .blocks {
+    margin-left: 0;
+  }
+}
+@media (device-width: 425px) {
+  .blocks {
+    margin-left: 0;
+  }
+}
+@media (device-width: 375px) {
+  .blocks {
+    margin-left: 0;
+  }
+}
+@media (device-width: 320px) {
+  .blocks {
+    margin-left: -3%;
+  }
+}

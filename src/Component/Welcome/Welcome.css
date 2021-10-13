@@ -1,0 +1,1523 @@
+.mainBox{
+    width: 100%     ;
+    height: 80vh;
+    border-radius: 25px;
+    outline: none;
+}
+
+.Main{
+    width: 100%     ;
+    height: 80vh;
+    display: flex;
+    border-radius: 25px;
+    background: url(./images/main_photo.png)center / cover ; 
+}
+.advertisement{
+    margin-top: 25%;
+    margin-left: 20%;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 300;
+    width: 100%; 
+}
+.china{
+    color: red;
+    font-weight: bolder;
+}
+.advertisement1{
+    margin-top: 13%;
+    text-align: center;
+    font-weight :290;
+    font-size: 27px;
+}
+.RightPart{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.92);
+    margin-left: 15%;
+    border-radius: 25px;
+    outline: none;
+}
+
+ .enter_welcome_button{
+     color:red;
+     Width: 190px;
+     Height: 40px;
+     border: 1px solid red;
+     text-align: center;
+     background-color:transparent;
+     margin-left: 26%;
+     margin-top: 10%;
+            
+ }
+ .enter_welcome_button:hover{
+     background-color: white;
+     Width :190px;
+     Height:40px;
+     border: 1px solid white;
+     color:black;   
+ }
+ .registration{
+     color:red;
+     Width :190px;
+    Height:40px;
+    border: 1px solid red;
+    background-color:transparent ;
+    margin-left: 26%;
+    margin-top: 7%;
+    text-align: center;
+ }
+ .registration:hover{
+    background-color: white;
+    Width :190px;
+    Height:50px;
+    border: 1px solid white;
+    color:black;
+ }
+ .logo1{
+    width: 210px;
+    height: 146.39px;
+    margin-left: 25%;
+    margin-top: 13%;
+ }
+.closeTab{
+    position: absolute;
+    right:2%;
+    top:1%;
+    float:right;
+    z-index: 999;
+    
+}
+.blurBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+
+    
+}
+.text{
+background-color: rgba(255, 255, 255, 1);
+position: absolute;
+right:2%;
+top:3%;
+float:right;
+width:210px;
+height:352px;
+border-radius: 25px;
+z-index: 1;
+border:1px solid red;
+padding: 15px;
+width: 35%;
+height: 50vh;
+line-height: 20px;
+}
+.plus{
+    transform: rotate(45deg);
+    margin-top: 15px;
+    margin-right: 10px;
+} 
+
+.plus:hover{
+    transform: rotate(45deg);
+}  
+.paper{
+    position: 'absolute';
+    width: 800px;
+    background-color: white;
+    border-radius: 25px;
+    outline: none;
+    align-items: center;
+    margin-top: 25%;
+    margin-left: 50%;
+  }
+
+
+@media screen and (max-width: 325px ) and (min-width: 200px) {
+    .mainBox{
+        width: 100%;
+        height: 35vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 70%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 100%;
+        margin-left: 48%;
+      }
+    .Main{
+        width: 100%     ;
+        height: 35vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 22%;
+        margin-left: 6%;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+        font-size: 8px;
+    }
+
+    .advertisement1{
+        margin-top: 13%;
+        text-align: center;
+        font-weight :290;
+        font-size: 10px;
+    }
+    .RightPart{
+        width: 70%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 90px;
+         Height: 22px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 10%;
+         margin-top: 5%;
+         font-size: 8px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 90px;
+         Height: 25px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 90px;
+        Height: 22px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 10%;
+        margin-top: 7%;
+        text-align: center;
+        font-size: 8px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 90px;
+        Height: 40px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 65px;
+        height: 60px;
+        margin-left: 22%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:1%;
+    top:2%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    width: 55%;
+    height: 80%;
+    line-height: 8px;
+    font-size: 9px;
+    
+    }
+    .welcom_p{
+        line-height: 12px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 10px;
+        margin-right: 2px;
+        width: 18px;
+        height: 18px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+
+@media screen and (max-width: 380px ) and (min-width: 325px) {
+    .mainBox{
+        width: 100%;
+        height: 40vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 70%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 88%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100%     ;
+        height: 40vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 22%;
+        margin-left: 8%;
+        font-size: 11px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 10%;
+        text-align: center;
+        font-weight :290;
+        font-size: 11px;
+    }
+    .RightPart{
+        width: 70%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 100px;
+         Height: 25px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 16%;
+         margin-top: 13%;
+         font-size: 12px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 100px;
+         Height: 25px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 100px;
+        Height: 25px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 16%;
+        margin-top: 7%;
+        text-align: center;
+        font-size: 10px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 100px;
+        Height: 50px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 80px;
+        height: 70px;
+        margin-left: 23%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:2%;
+    top:1%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 50%;
+    height: 80%;
+    line-height: 12px;
+    font-size: 10px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 8px;
+        margin-right: 4px;
+        width: 20px;
+        height: 20px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 430px ) and (min-width: 390px) {
+    .mainBox{
+        width: 100%;
+        height: 45vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 70%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 75%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100%     ;
+        height: 45vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 25%;
+        margin-left: 8%;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 13%;
+        text-align: center;
+        font-weight :290;
+        font-size: 12px;
+    }
+    .RightPart{
+        width: 70%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 102px;
+         Height: 25px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 18%;
+         margin-top: 10%;
+         font-size: 12px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 110px;
+         Height: 25px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 102px;
+        Height: 25px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 18%;
+        margin-top: 7%;
+        text-align: center;
+        font-size: 10px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 110px;
+        Height: 50px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 90px;
+        height: 80px;
+        margin-left: 22%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 2%;
+    top: 0.5%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 45%;
+    height: 80%;
+    line-height: 15px;
+    font-size: 10px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 9px;
+        margin-right: 6px;
+        width: 20px;
+        height: 20px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 510px ) and (min-width: 450px) {
+    .mainBox{
+        width: 100%;
+        height: 45vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 70%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 65%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100% ;
+        height: 45vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 25%;
+        margin-left: 8%;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 13%;
+        text-align: center;
+        font-weight :290;
+        font-size: 13px;
+    }
+    .RightPart{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 120px;
+         Height: 28px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 18%;
+         margin-top: 10%;
+         font-size: 12px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 120px;
+         Height: 28px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 120px;
+        Height: 28px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 18%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 12px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 120px;
+        Height: 55px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 90px;
+        height: 70px;
+        margin-left: 25%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:2%;
+    top:0.5%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 43%;
+    height: 80%;
+    line-height: 15.5px;
+    font-size: 11px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 10px;
+        margin-right: 6px;
+        width: 20px;
+        height: 20px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 610px ) and (min-width: 550px) {
+    .mainBox{
+        width: 100%;
+        height: 45vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 65%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 53%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100% ;
+        height: 45vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 25%;
+        margin-left: 8%;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 8%;
+        text-align: center;
+        font-size: 13.5px;
+    }
+    .RightPart{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 120px;
+         Height: 28px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 19%;
+         margin-top: 8%;
+         font-size: 12px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 120px;
+         Height: 28px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 120px;
+        Height: 28px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 19%;
+        margin-top: 8%;
+        text-align: center;
+        font-size: 12px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 120px;
+        Height: 55px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 100px;
+        height: 80px;
+        margin-left: 25%;
+        margin-top: 10%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:2%;
+    top: 2%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 45%;
+    height: 80%;
+    line-height: 16px;
+    font-size: 12px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 12px;
+        margin-right: 6px;
+        width: 22px;
+        height: 22px;
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 770px ) and (min-width: 650px) {
+    .mainBox{
+        width: 100%;
+        height: 50vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 60%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 42%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100% ;
+        height: 50vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 28%;
+        margin-left: 14%;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 10%;
+        text-align: center;
+        font-weight :290;
+        font-size: 15px;
+    }
+    .RightPart{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 129px;
+         Height: 30px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 24%;
+         margin-top: 5%;
+         font-size: 13px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 129px;
+         Height: 30px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 129px;
+        Height: 30px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 24%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 13px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 129px;
+        Height: 60px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 120px;
+        height: 100px;
+        margin-left: 25%;
+        margin-top: 10%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;    
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;     
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:2%;
+    top: 2%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 45%;
+    height: 80%;
+    line-height: 20px;
+    font-size: 12px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 12px;
+        margin-right: 8px;
+        width: 25px;
+        height: 25px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 1030px ) and (min-width: 1000px) {
+    .mainBox{
+        width: 100%;
+        height: 50vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 60%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 39%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100% ;
+        height: 50vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 27%;
+        margin-left: 12%;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 7%;
+        text-align: center;
+        font-weight :290;
+        font-size: 20px;
+    }
+    .RightPart{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 165px;
+         Height: 40px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 25%;
+         margin-top: 10%;
+         font-size: 16px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 165px;
+         Height: 40px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 165px;
+        Height: 40px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 25%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 16px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 165px;
+        Height: 70px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 160px;
+        height: 120px;
+        margin-left: 25%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:2%;
+    top: 2%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 45%;
+    height: 80%;
+    line-height: 30px;
+    font-size: 17px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 15px;
+        margin-right: 10px;
+        width: 28px;
+        height: 28px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 1290px ) and (min-width: 1200px) {
+    .mainBox{
+        width: 100%;
+        height: 60vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 60%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 36%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100% ;
+        height: 60vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 30%;
+        margin-left: 14%;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 7%;
+        text-align: center;
+        font-weight :290;
+        font-size: 25px;
+    }
+    .RightPart{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 200px;
+         Height: 50px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 27%;
+         margin-top: 8%;
+         font-size: 19px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 200px;
+         Height: 50px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 200px;
+        Height: 50px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 27%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 19px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 200px;
+        Height: 80px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 230px;
+        height: 170px;
+        margin-left: 25%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    float:right;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 45%;
+    height: 80%;
+    line-height: 40px;
+    font-size: 20px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 12px;
+        margin-right: 6px;
+        width: 30px;
+        height: 30px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 1410px ) and (min-width: 1300px) {
+    .mainBox{
+        width: 100%;
+        height: 60vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 60%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 36%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100% ;
+        height: 60vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 32%;
+        margin-left: 14%;
+        font-size: 27px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 7%;
+        text-align: center;
+        font-weight :290;
+        font-size: 27px;
+    }
+    .RightPart{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 220px;
+         Height: 60px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 25%;
+         margin-top: 10%;
+         font-size: 21px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 220px;
+         Height: 60px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 220px;
+        Height: 60px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 25%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 21px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 220px;
+        Height: 90px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 250px;
+        height: 170px;
+        margin-left: 25%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:2%;
+    top:3%;
+    float:right;
+    width:210px;
+    height:352px;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 40%;
+    height: 50vh;
+    line-height: 42px;
+    font-size: 21px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 20px;
+        margin-right: 10px;
+        width: 32px;
+        height: 32px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+@media screen and (max-width: 1690px ) and (min-width: 1600px) {
+    .mainBox{
+        width: 100%;
+        height: 55vh;
+        border-radius: 25px;
+        outline: none;
+    }
+    .paper{
+        position: 'absolute';
+        width: 55%;
+        background-color: white;
+        border-radius: 25px;
+        outline: none;
+        align-items: center;
+        margin-top: 35%;
+        margin-left: 50%;
+      }
+    .Main{
+        width: 100% ;
+        height: 55vh;
+        display: flex;
+        border-radius: 25px;
+        background: url(./images/main_photo.png)center / cover ; 
+    }
+    .advertisement{
+        margin-top: 35%;
+        margin-left: 14%;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%; 
+    }
+    .china{
+        color: red;
+        font-weight: bolder;
+    }
+    .advertisement1{
+        margin-top: 7%;
+        text-align: center;
+        font-weight :290;
+        font-size: 31px;
+    }
+    .RightPart{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.92);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+     .enter_welcome_button{
+         color:red;
+         Width: 260px;
+         Height: 70px;
+         border: 1px solid red;
+         text-align: center;
+         background-color:transparent;
+         margin-left: 25%;
+         margin-top: 10%;
+         font-size: 25px;
+                
+     }
+     .enter_welcome_button:hover{
+         background-color: white;
+         Width: 260px;
+         Height: 70px;
+         border: 1px solid white;
+         color:black;   
+     }
+     .registration{
+         color:red;
+         Width: 260px;
+        Height: 70px;
+        border: 1px solid red;
+        background-color:transparent ;
+        margin-left: 25%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 25px;
+     }
+     .registration:hover{
+        background-color: white;
+        Width: 260px;
+        Height: 110px;
+        border: 1px solid white;
+        color:black;
+     }
+     .logo1{
+        width: 280px;
+        height: 190px;
+        margin-left: 25%;
+        margin-top: 13%;
+     }
+    .closeTab{
+        position: absolute;
+        right:2%;
+        top:1%;
+        float:right;
+        z-index: 999;
+        
+    }
+    .blurBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+    
+        
+    }
+    .text{
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right:2%;
+    top:3%;
+    float:right;
+    width:210px;
+    height:352px;
+    border-radius: 25px;
+    z-index: 1;
+    border:1px solid red;
+    padding: 15px;
+    width: 40%;
+    height: 80%;
+    line-height: 49px;
+    font-size: 25px;
+    }
+    .plus{
+        transform: rotate(45deg);
+        margin-top: 20px;
+        margin-right: 10px;
+        width: 43px;
+        height: 43px;
+      
+    } 
+    .plus:hover{
+        transform: rotate(90deg);
+    }  
+    
+}
+  
+  

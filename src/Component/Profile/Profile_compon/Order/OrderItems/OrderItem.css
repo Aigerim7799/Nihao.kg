@@ -1,0 +1,66 @@
+.profile__order__item{
+    width: 99.2%;
+    height: 85px;
+    margin-top: 20px;
+    border-left: 4px solid greenyellow;
+    background-color: white;
+    display: flex;
+}
+.profile__order__ava{
+    width: 85px;
+    height: 100%;
+    position: relative;
+}
+.profile__order__photo{
+    width: 85px;
+    height: 100%;
+}
+.profile__order__deleteBtn{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    color: red;
+    margin-left: -85px;
+    font-weight: 590;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.profile__order__deleteBtn:hover{
+    background-color: red;
+    color: white;
+}
+.profile__order__photo:hover + .profile__order__deleteBtn{
+    background: red;
+    color: white;
+}
+ul{
+    width: 96%;
+    height: 100%;
+    padding-left: 15px;
+    margin: 0;
+    margin-top: -15px;
+    line-height: 0px;
+}
+ul strong{
+    font-size: 9px;
+}
+.profile__order__pRed{
+    font-size: 9px;
+    color: red;
+    text-align: right;
+}
+.profile__order__pRight{
+    font-size: 9px;
+    float: right;
+    font-weight: 590;
+    margin-top: 3px;
+}
+.profile__order__data{
+    font-weight: normal !important;
+
+}
+.profile__order__itemMore{
+    width: 100%;
+    height: 100%;
+}

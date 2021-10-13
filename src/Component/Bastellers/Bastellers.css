@@ -1,0 +1,68 @@
+.Bastellers_line{
+    width: auto;
+    height: 10%;
+    background: red;
+    margin-top: 5%;
+}
+.bast_wrap{
+    width: 96%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.Bastellers_text{
+    font-size:1.2vw;
+    margin: 0;
+    padding:10px 40px;
+    color:white;
+    box-shadow: var(--shadow);
+    font-family: Microsoft YaHei UI,Arial, Helvetica, sans-serif;
+}
+
+.Bastellers_wrapper{
+    display: flex;
+    width: 100%;
+    background: #fff;
+    justify-content: space-around;
+    position: relative;
+    flex-wrap: wrap;  
+    box-shadow: var(--shadow);
+}
+.Bastellers_block{
+    width: 13%;
+    margin:0% 1.5%;
+    margin-top: 2%;
+    position: relative;
+}
+.Bastellers_img{
+    width:100%;
+}
+.Bastellers_block_red{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    background: red;
+}
+.Bastellers_tt_text{
+    font-size: 0.9vw;
+    color:white;
+    position: absolute;
+    top:60%;
+}
+.Bastellers_price{
+    position: relative;
+    color:white;
+    font-size: 1vw;
+    padding: 1%;
+    left: 3%;
+}
+.offer_svg_wh{
+    fill:none;
+    position: absolute;
+    stroke:white;
+    width: 1.6vw;
+    bottom:0%;
+    right: 2%;
+}
+.Bastellers_like{
+    cursor: pointer;
+}

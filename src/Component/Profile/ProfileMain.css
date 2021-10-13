@@ -1,0 +1,14 @@
+.main__wrapper{
+    width: 100%;
+    background-image: url(./images/sprite.png);
+    background-size: 20%;
+    overflow-x: hidden;
+}
+.main__opacity{
+    margin: 0 12%;
+    backdrop-filter: blur(30px);
+}
+.main__wrap{
+    width: 85%;
+    margin: auto;
+}
